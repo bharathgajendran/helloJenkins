@@ -46,7 +46,7 @@ sonarqube {
             projectVersion = jenkinsJobName + '_' + jenkinsJobBuild
         }
 
-        property "sonar.host.url", "http://localhost:9000"
+        property "sonar.host.url", "http://localhost:8090"
         property "sonar.projectKey", projectKey // some shortcut name
         property "sonar.projectName", projectName
         property "sonar.projectVersion", projectVersion
